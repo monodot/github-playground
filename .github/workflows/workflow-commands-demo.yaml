@@ -10,6 +10,5 @@ jobs:
 
       - id: hello
         run: |
-            echo "Hello, world!"
-            echo "::set-output name=hello::Hello, world!"
-            echo "::set-output name=goodbye::Goodbye, world!"
+            ./workflow-commands-demo/demo.sh
+
