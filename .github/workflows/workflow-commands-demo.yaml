@@ -1,3 +1,5 @@
+name: Workflow Commands Demo
+
 on:
   workflow_dispatch:
 
