@@ -1,0 +1,15 @@
+on:
+  workflow_dispatch:
+
+jobs:
+  demo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout the repository
+        uses: actions/checkout@v4
+
+      - id: hello
+        run: |
+            echo "Hello, world!"
+            echo "::set-output name=hello::Hello, world!"
+            echo "::set-output name=goodbye::Goodbye, world!"
