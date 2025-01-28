@@ -12,6 +12,7 @@ echo "::warning file=app.js,line=1,col=5,endColumn=7,title=Mild Warning::Missing
 
 # Error
 echo "::error file=app.js,line=1,col=5,endColumn=7,title=Panic at the Disco::Missing your own colon"
+echo "::error file=workflow-commands-demo/people.csv,line=2,col=1,endLine=2,endColumn=5::Invalid people entry"
 
 # Grouping
 echo "::group::A group of nice things, expand me"
